@@ -1,0 +1,10 @@
+groups:
+- name: nginx_alerts
+  rules:
+  - alert: NginxDown
+    expr: up{job="nginx"} == 0
+    for: 1m
+    labels:
+      severity: critical
+    annotations:
+      summary: "NGINX is down"
