@@ -1,9 +1,9 @@
 ---
 - name: Restart NGINX
   hosts: localhost
-  become: true
   tasks:
-    - name: Ensure NGINX is running
+    - name: Restart NGINX service
+      become: yes
       service:
         name: nginx
         state: restarted
