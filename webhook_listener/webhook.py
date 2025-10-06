@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
-    subprocess.run(["ansible-playbook", "ansible/restart_nginx.yml"])
+    print("Received alert:", request.json)
     return "Triggered", 200
 
 app.run(port=5001)
