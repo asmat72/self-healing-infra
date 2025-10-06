@@ -3,7 +3,7 @@
   hosts: localhost
   tasks:
     - name: Restart NGINX service
-      become: yes
+      become: true
       service:
         name: nginx
         state: restarted
