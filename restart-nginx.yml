@@ -1,9 +1,9 @@
 ---
-- name: Restart NGINX
+- name: Restart NGINX on target host
   hosts: localhost
+  become: true
   tasks:
     - name: Restart NGINX service
-      become: true
-      service:
+      ansible.builtin.service:
         name: nginx
         state: restarted

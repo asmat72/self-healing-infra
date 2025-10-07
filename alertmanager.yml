@@ -1,4 +1,4 @@
 receivers:
-- name: 'ansible-webhook'
+- name: 'webhook'
   webhook_configs:
   - url: 'http://localhost:5001/webhook'
