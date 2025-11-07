@@ -4,7 +4,7 @@
 - ***🎯 Objective:***
       - Automatically detect service failures (e.g., NGINX down) and recover them using Prometheus     alerts, Alertmanager notifications, and Ansible automation.
       - Clone the repository:  
-                “git clone    “https://github.com/asmat72/self-healing-infra.git”
+                “git clone   ***“https://github.com/asmat72/self-healing-infra.git”***
   
 - ***🧰 Tools Used:***
       - “Prometheus”.
