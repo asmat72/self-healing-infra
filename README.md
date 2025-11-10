@@ -39,14 +39,14 @@
 
 - ***📁 Project Structure:***
       - self_healing_infra/
-      -    ├── restart_nginx.yml
-      -    ├── prometheus.yml
-      -    ├── alert.rules.yml
-      -    ├── alertmanager.yml
-      -    ├── Webhook_listener
-      -              └── webhook.py 
-      -    ├── README.md
-      -    ├── screenshots & logs 
+      -   │    ├── restart_nginx.yml
+      -   │    ├── prometheus.yml
+      -   │    ├── alert.rules.yml
+      -   │    ├── alertmanager.yml 
+      -   │    ├── Webhook_listener
+      -   │            └── webhook.py
+      -   │    ├── README.md
+      -   │    ├── screenshots & logs
   
   - ***🎬 Demo: Test and Capture:***
       - Stop NGINX manually:
