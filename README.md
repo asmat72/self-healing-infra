@@ -1,5 +1,5 @@
 # ***🔧 Self-Healing Infrastructure with Prometheus, Alertmanager & Ansible***
-            ***## self-healing-infra***
+##              ***self-healing-infra***
 "A real-world automation project that detects service failures and automatically recovers them using Prometheus alerts and Ansible playbooks.            
  A self-healing system for cloud infrastructure using monitoring and automated recovery scripts.”
 
