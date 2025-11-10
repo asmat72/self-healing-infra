@@ -7,12 +7,12 @@
                 “git clone   ***“https://github.com/asmat72/self-healing-infra.git”***
   
 - ***🧰 Tools Used:***
-      - “Prometheus”.
-      - “Alertmanager”
-      - “Ansible”
-      - “Shell Scripting”
-      - “Ubuntu VM / Docker”
-      - “NGINX”
+    - “Prometheus”.
+    - “Alertmanager”
+    - “Ansible”
+    - “Shell Scripting”
+    - “Ubuntu VM / Docker”
+    - “NGINX”
   
   - ***🚀 Setup Guide:***
       - 🔧 Deploy NGINX:
