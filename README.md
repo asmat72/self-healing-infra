@@ -38,7 +38,7 @@
       The playbook restarts the failed service or reboots the system if needed.
 
 - ***📁 Project Structure:***
-      - self_healing_infra/
+   - self_healing_infra/
       -   │    ├── restart_nginx.yml
       -   │    ├── prometheus.yml
       -   │    ├── alert.rules.yml
